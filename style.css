@@ -1,0 +1,70 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.homepage {
+    background-color: lightblue;
+}
+.link {
+    background-color: rgb(18, 177, 103);
+    font-weight: bold;
+    margin: 110px 400px;
+    padding: 20px 5px;
+    display: block;
+}
+.opor {
+    background-color: gray;
+}
+.sushi {
+    background-color: greenyellow;
+}
+.omelette {
+    background-color: yellow;
+}
+h1, h2, h3 {
+    text-decoration: underline;
+}
+.opor .title {
+    color: goldenrod;
+}
+.sushi .title {
+    color: orange;
+}
+.omelette .title {
+    color: red;
+}
+.title {
+    display: inline-block;
+    margin-top: 50px
+}
+.body {
+    background-color: white;
+    margin: 0 300px;
+    text-align: center;
+    border: 20px;
+    border-style: double;
+}
+.homepage .body {
+    margin-top: 80px;
+}
+.omelette .body {
+    margin-top: 48px;
+}
+ul {
+    padding: 0px;
+    list-style-type: none;
+}
+.steps {
+    text-align: left;
+}
+.steps h3 {
+    margin-left: 20px;
+    text-align: left;
+}
+.ingredients li, .steps li {
+    padding: 5px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
